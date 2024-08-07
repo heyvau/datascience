@@ -13,7 +13,7 @@ class Kreis(Form):
         self.radius = radius
 
     def flaeche(self):
-        return pi * self.radius ** 2
+        return round(pi * self.radius ** 2, 2)
 
 
 kreis = Kreis(5)
